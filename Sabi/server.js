@@ -18,8 +18,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // WhatsApp configuration
 const WHATSAPP_API_URL = 'https://api.whatsapp.com/send';
-const YOUR_WHATSAPP_NUMBER = 'YOUR_WHATSAPP_NUMBER'; // Format: 2348123456789 (Nigeria example)
-const ADMIN_PHONE_NUMBER = 'ADMIN_PHONE_NUMBER'; // Your phone number to receive notifications
+const YOUR_WHATSAPP_NUMBER = '2349075328722'; // Format: 2348123456789 (Nigeria example)
+const ADMIN_PHONE_NUMBER = '2349075328722'; // Your phone number to receive notifications
 
 // Routes
 app.get('/', (req, res) => {

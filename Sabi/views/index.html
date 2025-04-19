@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiddies Tech Virtual Masterclass</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">KiddiesTech</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Unlock Your Child's <span>Tech Potential</span></h1>
+                <p>Fun, interactive virtual masterclasses designed to spark creativity and build future-ready skills</p>
+                <a href="#register" class="btn">Enroll Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="/images/kids-coding.png" alt="Kids learning tech">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Why Choose Our Masterclass?</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Expert Instructors</h3>
+                    <p>Our teachers are tech professionals who know how to make learning fun for kids.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Game-Based Learning</h3>
+                    <p>Kids learn through interactive games and projects they'll love.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certification</h3>
+                    <p>Each child receives a certificate upon completion to celebrate their achievement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Our Exciting Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-icon" style="background-color: #FF9F1C;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Build fun websites and games while learning HTML, CSS, and JavaScript basics.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon" style="background-color: #2EC4B6;">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Create beautiful app interfaces and learn design thinking principles.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon" style="background-color: #E71D36;">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphics Design</h3>
+                    <p>Explore digital art, logos, and illustrations with kid-friendly tools.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon" style="background-color: #662E9B;">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cyber Security</h3>
+                    <p>Learn online safety, ethical hacking basics, and how to protect personal data.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon" style="background-color: #FF6B6B;">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Build simple mobile apps with block-based coding platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="registration">
+        <div class="container">
+            <h2>Register Your Child Today</h2>
+            <p>Give your child the gift of tech education. Limited slots available!</p>
+            
+            <form id="registrationForm" class="registration-form">
+                <div class="form-group">
+                    <label for="childName">Child's Name</label>
+                    <input type="text" id="childName" name="childName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="childAge">Child's Age</label>
+                    <input type="number" id="childAge" name="childAge" min="5" max="18" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="parentEmail">Parent's Email</label>
+                    <input type="email" id="parentEmail" name="parentEmail" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="parentPhone">Parent's Phone Number</label>
+                    <input type="tel" id="parentPhone" name="parentPhone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="courseCategory">Course Category</label>
+                    <select id="courseCategory" name="courseCategory" required>
+                        <option value="">Select a course</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="UI/UX Design">UI/UX Design</option>
+                        <option value="Graphics Design">Graphics Design</option>
+                        <option value="Cyber Security">Cyber Security</option>
+                        <option value="Mobile App Development">Mobile App Development</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-register">Register Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">KiddiesTech</div>
+                <p>Empowering the next generation of tech innovators</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 KiddiesTech Virtual Masterclass. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
